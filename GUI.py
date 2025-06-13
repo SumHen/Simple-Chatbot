@@ -10,6 +10,8 @@ def get_bot_response(user_input):
         "how are you": "I'm just a code, but I'm doing great! 🤖✨",
         "": "You didn’t type anything 🙃",
         "what are you doing?": "answering you😊",
+        "joke": "Why did the chicken cross the road? To debug your code!🐔",
+        "help": "Try: hi, bye, joke, help👍",
     }
     return responses.get(user_input.lower(), "I don't understand that 😅")
 
